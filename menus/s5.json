@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "s5 - cipher text",
+        "command": "s5:cipher"
+      },
+      {
+        "label": "s5 - decipher text",
+        "command": "s5:decipher"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "s5",
+          "submenu": [
+            {
+              "label": "Cipher",
+              "command": "s5:cipher"
+            },
+            {
+              "label": "Decipher",
+              "command": "s5:decipher"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
