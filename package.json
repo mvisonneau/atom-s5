@@ -1,7 +1,7 @@
 {
   "name": "s5",
   "main": "./lib/s5",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Atom wrapper around S5 - Safely Store Super Sensitive Stuff",
   "keywords": [
     "vault",
