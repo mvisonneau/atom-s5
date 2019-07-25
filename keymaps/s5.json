@@ -1,6 +1,7 @@
 {
   "atom-workspace": {
     "ctrl-alt-c": "s5:cipher",
-    "ctrl-alt-d": "s5:decipher"
+    "ctrl-alt-d": "s5:decipher",
+    "ctrl-alt-r": "s5:render"
   }
 }

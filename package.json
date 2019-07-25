@@ -1,10 +1,16 @@
 {
   "name": "s5",
   "main": "./lib/s5",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Atom wrapper around S5 - Safely Store Super Sensitive Stuff",
   "keywords": [
     "vault",
+    "transit",
+    "aes",
+    "pgp",
+    "gcp",
+    "aws",
+    "kms",
     "s5",
     "encrypt",
     "cipher"
@@ -12,7 +18,8 @@
   "activationCommands": {
     "atom-workspace": [
       "s5:cipher",
-      "s5:decipher"
+      "s5:decipher",
+      "s5:render"
     ]
   },
   "repository": "https://github.com/mvisonneau/atom-s5",
@@ -21,6 +28,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "shelljs": "^0.8.2"
+    "shelljs": "^0.8.3"
   }
 }

@@ -8,6 +8,10 @@
       {
         "label": "s5 - decipher text",
         "command": "s5:decipher"
+      },
+      {
+        "label": "s5 - render file",
+        "command": "s5:render"
       }
     ]
   },
@@ -25,6 +29,10 @@
             {
               "label": "Decipher",
               "command": "s5:decipher"
+            },
+            {
+              "label": "Render",
+              "command": "s5:render"
             }
           ]
         }
